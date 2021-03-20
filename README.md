@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Entrance test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## F11
 
-## Available Scripts
+### Julian Torregrosa
 
-In the project directory, you can run:
+Die Aufgabe besteht in dem Aufbau eines „Supportformulars“ in Deutsch und Englisch mit React.
 
-### `npm start`
+Auf der Seite soll es oben eine Sprachauswahl geben, um von Deutsch auf Englisch wechseln zu können.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Das Formular enthält initial folgende Felder:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+· Name/Name (Textfeld, initial leer)
 
-### `npm test`
+· Emailadresse/Email address (Textfeld, initial leer, Validierung ob es sich bei der Eingabe um eine gültige Mailadresse handelt)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+· Themenbereich/Topic (Selectfeld mit den Optionen „Allgemeine Anfrage“, „Softwarefehler“ und „Rückruf“)
 
-### `npm run build`
+· Beschreibung/Description (Textarea)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+· Absenden-Button
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Wird im Themenbereich „Softwarefehler“ ausgewählt, wird ein zusätzliches Feld unter dem Dropdown hinzugefügt, in das eine Versionsnummer eingetragen werden muss. Die Versionsnummer kann zum Beispiel lauten „1.0.0“, „1.11.12“. Eine andere Möglichkeit mit zum Beispiel Buchstaben ist hier nicht möglich. Das Schema bleibt zahl.zahl.zahl.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Wird im Themenbereich „Rückruf“ ausgewählt, wird ein zusätzliches Feld unter dem Dropdown hinzugefügt, in das eine Telefonnummer eingetragen werden muss.
 
-### `npm run eject`
+Das Formular sollte die Eingabe entsprechend validieren.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Wird das Formular abgeschickt, soll das Ergebnis auf einer Ergebnisseite angezeigt werden.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Die Ergebnisse werden nicht gespeichert.
+Alle Felder sind Pflichtfelder.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Du kannst auch gerne Ant Design oder eine andere UI Library verwenden.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Für die Aufgabe hast du bis zum 23.03.21 12:00 Uhr Zeit.
