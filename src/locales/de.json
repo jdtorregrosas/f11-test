@@ -1,0 +1,42 @@
+{
+  "title": "Support Formular",
+  "form": {
+    "name": "Name",
+    "email": "Emailaddresse",
+    "topic": "Themenbereich",
+    "description": "Beschreibung",
+    "submit": "Absenden",
+    "phone": "Telefonnummer",
+    "version": "Version",
+    "topics": {
+      "general_request": "Allgemeine Anfrage",
+      "software_error": "Softwarefehler",
+      "callback": "Rückruf"
+    },
+    "errors": {
+      "name_required": "Name ist erforderlich",
+      "email_required": "Emailaddresse ist erforderlich",
+      "email_invalid": "ungültige Emailaddresse",
+      "version_required": "Version ist erforderlich",
+      "version_invalid": "Version format soll Nummer.Nummer.Nummer sein",
+      "phone_invalid": "ungültiges Phonenummerformat"
+    }
+  },
+  "home": {
+    "entrance_test": "Einstellungstest",
+    "applicant": "Bewerber",
+    "button": "Gehen zum Supportformular",
+    "task": {
+      "main_info": "Die Aufgabe besteht in dem Aufbau eines „Supportformulars“ in Deutschund Englisch mit React. Auf der Seite soll es oben eine Sprachauswahl geben, um von Deutsch auf Englisch wechseln zu können. Das Formular enthält initial folgende Felder:",
+      "name": "Name (Textfeld, initial leer)",
+      "email": "Emailadresse - address (Textfeld, initial leer, Validierung ob es sich bei der Eingabe um eine gültige Mailadresse handelt)",
+      "topic": "Themenbereich - (Selectfeld mit den Optionen „Allgemeine Anfrage“, „Softwarefehler“ und „Rückruf“)",
+      "description": "Beschreibung - (Textarea)",
+      "button": "Absenden Button",
+      "additional_info": "Wird im Themenbereich „Softwarefehler“ ausgewählt, wird ein zusätzliches Feld unter dem Dropdown hinzugefügt, in das eine Versionsnummer eingetragen werden muss. Die Versionsnummer kann zum Beispiel lauten „1.0.0“, „1.11.12“. Eine andere Möglichkeit mit zum Beispiel Buchstaben ist hier nicht möglich. Das Schema bleibt Nummer.Nummer.Nummer. Wird im Themenbereich „Rückruf“ ausgewählt, wird ein zusätzliches Feld unter dem Dropdown hinzugefügt, in das eine Telefonnummer eingetragen werden muss. Das Formular sollte die Eingabe entsprechend validieren. Wird das Formular abgeschickt, soll das Ergebnis auf einer Ergebnisseite angezeigt werden. Die Ergebnisse werden nicht gespeichert. Alle Felder sind Pflichtfelder."
+    }
+  },
+  "summary": {
+    "title": "Ihre Zusammenfassung"
+  }
+}

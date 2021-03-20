@@ -1,0 +1,19 @@
+.formWrapper {
+  margin: 16px;
+}
+
+.image {
+  width: 100px;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px;
+
+  & .title {
+    text-align: end;
+    //word-break: break-all;
+  }
+}

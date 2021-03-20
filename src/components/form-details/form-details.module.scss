@@ -1,0 +1,32 @@
+.summaryWrapper {
+  display: flex;
+  flex-direction: column;
+
+  .summaryItem {
+    padding: 16px;
+    display: flex;
+    border-bottom: lightgrey solid 1px;
+
+    &:hover {
+      background: lightyellow;
+    }
+
+    &:last-of-type {
+      border: unset;
+    }
+
+    .summaryItemLabel {
+      width: 110px;
+      margin-inline-end: 16px;
+    }
+
+    .summaryItemContent {
+      flex: 1;
+    }
+  }
+
+  .backButton {
+    margin-top: 32px;
+    align-self: flex-end;
+  }
+}

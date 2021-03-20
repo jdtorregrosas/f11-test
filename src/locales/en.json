@@ -1,0 +1,42 @@
+{
+  "title": "Support Form",
+  "form": {
+    "name": "Name",
+    "email": "Email Address",
+    "topic": "Topic",
+    "description": "Description",
+    "submit": "Submit",
+    "phone": "Phone",
+    "version": "Version",
+    "topics": {
+      "general_request": "General inquiry",
+      "software_error": "Software error",
+      "callback": "Callback"
+    },
+    "errors": {
+      "name_required": "name is required",
+      "email_required": "email is required",
+      "email_invalid": "invalid email address",
+      "version_required": "version is required",
+      "version_invalid": "version should have the format: number.number.number",
+      "phone_invalid": "phone format invalid"
+    }
+  },
+  "home": {
+    "entrance_test": "Entrance test",
+    "applicant": "Applicant",
+    "button": "Go to Support Form",
+    "task": {
+      "main_info": "The task is to set up a \"support form\" in German and English with React. At the top of the page there should be a language selection to be able to change between German and English. The form has the following fields:",
+      "name": "Name (Textfeld, initial empty)",
+      "email": "Email address (Textfeld, initial leer, Validation of whether the entry is a valid email address)",
+      "topic": "Topic Select field with the options \"General Inquiry\", \"Software Error\" and \"Callback\")",
+      "description": "Description (Textarea)",
+      "button": "Send Button",
+      "additional_info": "If “software error” is selected in the topic area, an additional field is added below the dropdown in which a version number must be entered. The version number can be, for example, \"1.0.0\", \"1.11.12\". Another option with, for example, letters is not possible here. The scheme remains number.number.number. If “Callback” is selected in the topic area, an additional field is added under the dropdown in which a telephone number must be entered. The form should validate the entry accordingly. If the form is submitted, the result should be displayed on a results page. The results are not saved. All fields are required."
+    }
+  },
+  "summary": {
+    "title": "Your summary"
+  }
+}
